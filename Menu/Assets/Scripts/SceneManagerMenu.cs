@@ -5,7 +5,7 @@ public class SceneManagerMenu : MonoBehaviour {
 
 	public void comenzar()
 	{
-		Application.LoadLevel ("Nivel1Fase1");
+		Application.LoadLevel ("PantallaNivel1");
 	}
 
 	public void ayuda()

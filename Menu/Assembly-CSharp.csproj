@@ -62,6 +62,21 @@
      <Compile Include="Assets\Common\UIFramework\SampleInitErrorHandler.cs" />
      <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
      <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info1.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info10.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info11.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info12.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info13.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info14.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info15.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info2.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info3.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info4.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info5.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info6.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info7.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info8.cs" />
+     <Compile Include="Assets\Scripts\Informacion\Info9.cs" />
      <Compile Include="Assets\Scripts\SceneManagerAyuda.cs" />
      <Compile Include="Assets\Scripts\SceneManagerCreditos.cs" />
      <Compile Include="Assets\Scripts\SceneManagerMenu.cs" />
@@ -80,6 +95,21 @@
      <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel1.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel1Fase1.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel1Fase2.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel1Fase3.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel1Fase4.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel2Fase1.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel2Fase2.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel2Fase3.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel2Fase4.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel3Fase1.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel3Fase2.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel3Fase3.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel3Fase4.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel4Fase1.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel4Fase2.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetLoadLevel4Fase3.cs" />
      <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
      <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
@@ -112,23 +142,30 @@
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\Yincana 1.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\QCAR\Yincana.xml" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions 1">
- <HintPath>C:/Users/Paco/Documents/DSH/Menu/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions 1.dll</HintPath>
+ <HintPath>C:/Users/Paco/Documents/Proyectos/Menu/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions 1.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>C:/Users/Paco/Documents/DSH/Menu/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/Paco/Documents/Proyectos/Menu/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

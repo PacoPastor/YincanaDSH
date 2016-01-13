@@ -7,4 +7,9 @@ public class SceneManagerCreditos : MonoBehaviour {
 	{
 		Application.LoadLevel ("menuanimado");
 	}
+
+	public void github()
+	{
+		Application.OpenURL ("https://github.com/SephiRx11/YincanaDSH");
+	}
 }
